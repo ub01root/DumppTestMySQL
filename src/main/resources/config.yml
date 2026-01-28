@@ -1,0 +1,10 @@
+database:
+  host: "45.58.126.118"
+  port: 3306
+  name: "s22_BeansLicenses"
+  user: "u22_xWhxaodt78"
+  password: "slTQzhzVMx25MrDPDs!h.A^4"
+
+dump:
+  file: "dump.json"
+  max-rows-per-table: 50

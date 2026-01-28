@@ -1,0 +1,16 @@
+name: TestDumper
+main: org.happydev.test.TestDumper
+version: 1.0.0
+api-version: 1.13
+author: HappyDev
+
+commands:
+  testdump:
+    description: Test MySQL connection and dump data to JSON
+    usage: /testdump
+    permission: testdumper.use
+
+permissions:
+  testdumper.use:
+    description: Allows running the MySQL dump test
+    default: op
